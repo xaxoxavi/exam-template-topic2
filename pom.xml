@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>5.0.7.RELEASE</spring.version>
-        <nasa-api.version>1.0.0-SNAPSHOT</nasa-api.version>
+        <nasa-api.version>1.0.0</nasa-api.version>
     </properties>
 
     <dependencies>
