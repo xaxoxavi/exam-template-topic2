@@ -7,6 +7,12 @@
     <bean id="restTemplate" class="org.springframework.web.client.RestTemplate"/>
 
 
+    <!-- No commit-->
+    <bean id="roversApi" class="com.esliceu.dwes.RoversApi">
+        <constructor-arg index="0" ref="restTemplate"/>
+        <constructor-arg index="1" value="https://api.nasa.gov/mars-photos/api/v1/rovers/{0}/photos?sol={1}&amp;api_key={2}"/>
+        <constructor-arg index="2" value="pEVJJoNjtlyZ7tsXRq9e3L55K0hAG6LxJovMFbeo"/>
+    </bean>
 
 
 </beans>
